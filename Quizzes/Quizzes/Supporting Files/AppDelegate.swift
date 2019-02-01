@@ -20,19 +20,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let tabBarController = UITabBarController()
     
     let quizzesVC = UIViewController()
-    quizzesVC.title = "Quizzes"
+    quizzesVC.tabBarItem = UITabBarItem(title: "Quizzes", image: UIImage(named: "quiz-icon"), tag: 0)
     quizzesVC.view.backgroundColor = .white
     
     let searchVC = UIViewController()
-    searchVC.title = "Search"
+    searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 1)
     searchVC.view.backgroundColor = .white
     
     let createVC = UIViewController()
-    createVC.title = "Create"
+    createVC.tabBarItem = UITabBarItem(title: "Create", image: UIImage(named: "create-icon"), tag: 2)
     createVC.view.backgroundColor = .white
     
     let profileVC = UIViewController()
-    profileVC.title = "Profile"
+    profileVC.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "profile-unfilled"), tag: 3)
     profileVC.view.backgroundColor = .white
     
     let nav = UINavigationController.init(rootViewController: quizzesVC)
