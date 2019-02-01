@@ -15,12 +15,8 @@
 		577118DA22037B5B00B9DD0B /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577118D922037B5B00B9DD0B /* DataPersistenceManager.swift */; };
 		577118DD22037B8E00B9DD0B /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577118DC22037B8E00B9DD0B /* Date+Extensions.swift */; };
 		577118DF22037BAA00B9DD0B /* String+DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577118DE22037BAA00B9DD0B /* String+DateExtensions.swift */; };
-		C66E2ED02204AC9200BB08E5 /* QuizzesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E2ECF2204AC9200BB08E5 /* QuizzesViewController.swift */; };
-		C66E2ED22204ACCA00BB08E5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E2ED12204ACCA00BB08E5 /* SearchViewController.swift */; };
-		C66E2ED42204AD0B00BB08E5 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E2ED32204AD0B00BB08E5 /* CreateViewController.swift */; };
-		C66E2ED62204AD1F00BB08E5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E2ED52204AD1F00BB08E5 /* ProfileViewController.swift */; };
 		C66E2ED82204AE1600BB08E5 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E2ED72204AE1600BB08E5 /* Quiz.swift */; };
-		C66E2EDB2204BB9F00BB08E5 /* QuizTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E2EDA2204BB9F00BB08E5 /* QuizTabController.swift */; };
+		C66E2EDD2204DE3300BB08E5 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E2EDC2204DE3300BB08E5 /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,12 +30,8 @@
 		577118D922037B5B00B9DD0B /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
 		577118DC22037B8E00B9DD0B /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		577118DE22037BAA00B9DD0B /* String+DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DateExtensions.swift"; sourceTree = "<group>"; };
-		C66E2ECF2204AC9200BB08E5 /* QuizzesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzesViewController.swift; sourceTree = "<group>"; };
-		C66E2ED12204ACCA00BB08E5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = Quizzes/Controllers/SearchViewController.swift; sourceTree = SOURCE_ROOT; };
-		C66E2ED32204AD0B00BB08E5 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
-		C66E2ED52204AD1F00BB08E5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C66E2ED72204AE1600BB08E5 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
-		C66E2EDA2204BB9F00BB08E5 /* QuizTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTabController.swift; sourceTree = "<group>"; };
+		C66E2EDC2204DE3300BB08E5 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,11 +115,7 @@
 		C66E2ECD22049F1400BB08E5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C66E2ED12204ACCA00BB08E5 /* SearchViewController.swift */,
-				C66E2EDA2204BB9F00BB08E5 /* QuizTabController.swift */,
-				C66E2ECF2204AC9200BB08E5 /* QuizzesViewController.swift */,
-				C66E2ED32204AD0B00BB08E5 /* CreateViewController.swift */,
-				C66E2ED52204AD1F00BB08E5 /* ProfileViewController.swift */,
+				C66E2EDC2204DE3300BB08E5 /* QuizViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -219,15 +207,11 @@
 			files = (
 				577118D722037ABA00B9DD0B /* NetworkHelper.swift in Sources */,
 				577118C12203796A00B9DD0B /* AppDelegate.swift in Sources */,
-				C66E2ED62204AD1F00BB08E5 /* ProfileViewController.swift in Sources */,
-				C66E2ED42204AD0B00BB08E5 /* CreateViewController.swift in Sources */,
-				C66E2ED22204ACCA00BB08E5 /* SearchViewController.swift in Sources */,
 				577118D522037A9F00B9DD0B /* AppError.swift in Sources */,
-				C66E2EDB2204BB9F00BB08E5 /* QuizTabController.swift in Sources */,
+				C66E2EDD2204DE3300BB08E5 /* QuizViewController.swift in Sources */,
 				577118DA22037B5B00B9DD0B /* DataPersistenceManager.swift in Sources */,
 				C66E2ED82204AE1600BB08E5 /* Quiz.swift in Sources */,
 				577118DF22037BAA00B9DD0B /* String+DateExtensions.swift in Sources */,
-				C66E2ED02204AC9200BB08E5 /* QuizzesViewController.swift in Sources */,
 				577118DD22037B8E00B9DD0B /* Date+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

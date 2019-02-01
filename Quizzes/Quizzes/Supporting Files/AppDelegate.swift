@@ -16,6 +16,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
+    
+    let tabBarController = UITabBarController()
+    
+    let quizzesVC = UIViewController()
+    quizzesVC.title = "Quizzes"
+    quizzesVC.view.backgroundColor = .white
+    
+    let searchVC = UIViewController()
+    searchVC.title = "Search"
+    searchVC.view.backgroundColor = .white
+    
+    let createVC = UIViewController()
+    createVC.title = "Create"
+    createVC.view.backgroundColor = .white
+    
+    let profileVC = UIViewController()
+    profileVC.title = "Profile"
+    profileVC.view.backgroundColor = .white
+    
+    let nav = UINavigationController.init(rootViewController: quizzesVC)
+    tabBarController.viewControllers = [quizzesVC, searchVC, createVC, profileVC]
+
+    window = UIWindow(frame: UIScreen.main.bounds)
+    window?.rootViewController = UINavigationController(rootViewController: tabBarController)
+    window?.makeKeyAndVisible()
     return true
   }
 
