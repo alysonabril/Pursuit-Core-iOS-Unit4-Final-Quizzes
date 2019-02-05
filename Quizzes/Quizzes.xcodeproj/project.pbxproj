@@ -17,6 +17,12 @@
 		577118DF22037BAA00B9DD0B /* String+DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577118DE22037BAA00B9DD0B /* String+DateExtensions.swift */; };
 		C66E2ED82204AE1600BB08E5 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E2ED72204AE1600BB08E5 /* Quiz.swift */; };
 		C66E2EDD2204DE3300BB08E5 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E2EDC2204DE3300BB08E5 /* QuizViewController.swift */; };
+		C66E2EDF2204F9EB00BB08E5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E2EDE2204F9EB00BB08E5 /* SearchViewController.swift */; };
+		C66E2EE522074DD900BB08E5 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E2EE422074DD900BB08E5 /* CreateView.swift */; };
+		C66E2EE9220751F400BB08E5 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E2EE8220751F400BB08E5 /* CreateViewController.swift */; };
+		C66E2EED220771B200BB08E5 /* SearchCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E2EEC220771B200BB08E5 /* SearchCVCell.swift */; };
+		C66E2EF52207ECE800BB08E5 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E2EF42207ECE800BB08E5 /* ProfileCell.swift */; };
+		C66E2EF72209744B00BB08E5 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E2EF62209744B00BB08E5 /* ProfileTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,12 @@
 		577118DE22037BAA00B9DD0B /* String+DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DateExtensions.swift"; sourceTree = "<group>"; };
 		C66E2ED72204AE1600BB08E5 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		C66E2EDC2204DE3300BB08E5 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		C66E2EDE2204F9EB00BB08E5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C66E2EE422074DD900BB08E5 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		C66E2EE8220751F400BB08E5 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		C66E2EEC220771B200BB08E5 /* SearchCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCVCell.swift; sourceTree = "<group>"; };
+		C66E2EF42207ECE800BB08E5 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		C66E2EF62209744B00BB08E5 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +128,9 @@
 			isa = PBXGroup;
 			children = (
 				C66E2EDC2204DE3300BB08E5 /* QuizViewController.swift */,
+				C66E2EDE2204F9EB00BB08E5 /* SearchViewController.swift */,
+				C66E2EE8220751F400BB08E5 /* CreateViewController.swift */,
+				C66E2EF62209744B00BB08E5 /* ProfileTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -123,6 +138,9 @@
 		C66E2ECE22049F1D00BB08E5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C66E2EE422074DD900BB08E5 /* CreateView.swift */,
+				C66E2EEC220771B200BB08E5 /* SearchCVCell.swift */,
+				C66E2EF42207ECE800BB08E5 /* ProfileCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,11 +226,17 @@
 				577118D722037ABA00B9DD0B /* NetworkHelper.swift in Sources */,
 				577118C12203796A00B9DD0B /* AppDelegate.swift in Sources */,
 				577118D522037A9F00B9DD0B /* AppError.swift in Sources */,
+				C66E2EDF2204F9EB00BB08E5 /* SearchViewController.swift in Sources */,
 				C66E2EDD2204DE3300BB08E5 /* QuizViewController.swift in Sources */,
 				577118DA22037B5B00B9DD0B /* DataPersistenceManager.swift in Sources */,
+				C66E2EF72209744B00BB08E5 /* ProfileTableViewController.swift in Sources */,
 				C66E2ED82204AE1600BB08E5 /* Quiz.swift in Sources */,
+				C66E2EE9220751F400BB08E5 /* CreateViewController.swift in Sources */,
 				577118DF22037BAA00B9DD0B /* String+DateExtensions.swift in Sources */,
+				C66E2EE522074DD900BB08E5 /* CreateView.swift in Sources */,
+				C66E2EED220771B200BB08E5 /* SearchCVCell.swift in Sources */,
 				577118DD22037B8E00B9DD0B /* Date+Extensions.swift in Sources */,
+				C66E2EF52207ECE800BB08E5 /* ProfileCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

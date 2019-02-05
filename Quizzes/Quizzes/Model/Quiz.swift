@@ -12,5 +12,5 @@ import Foundation
 struct Quiz: Codable {
     let id: String
     let quizTitle: String
-    let facts: String
+    let facts: [String]
 }
