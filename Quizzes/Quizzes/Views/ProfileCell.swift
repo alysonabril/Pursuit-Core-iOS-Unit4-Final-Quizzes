@@ -49,31 +49,19 @@ class ProfileCell: UITableViewCell {
 
 class Header: UITableViewHeaderFooterView {
     
-    lazy var headerLabel: UILabel = {
-        let label = UILabel()
-        label.text = "EDIT PHOTO"
-        label.font = UIFont(name: "noteworthy", size: 18)
-        label.textColor = .gray
-        label.backgroundColor = .lightGray
-        return label
-    }()
     
     override init(reuseIdentifier: String?) {
         super.init(reuseIdentifier: reuseIdentifier)
-        setupEditLabel()
+        
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        setupEditLabel()
+      
     }
     
     
-    func setupEditLabel() {
-        addSubview(headerLabel)
-       // headerLabel.translatesAutoresizingMaskIntoConstraints = false
-        //headerLabel.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
-    }
+ 
 
 }
 
